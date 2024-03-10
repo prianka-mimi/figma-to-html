@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma to HTML</title>
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/blue-theme.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <link rel="stylesheet" href="css/js-style.css">
+    <link rel="stylesheet" href="css/homepage footer - css & responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/homepage full responsive.css">
+</head>
+
+<body>
+    <!-- Preloader part start -->
+    <div id="preloader">
+        <div class="loader3">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- Preloader part end -->
+
+
+
+
+
+    <!-- header part start -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <div class="nav_logo animate__animated animate__lightSpeedInLeft" style="--animate-duration: 3s;">
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-center-custom mb-2 mb-lg-0">
+
+                        <li class="nav-item"><a class="nav-link" href="#">হোম</a></li>
+
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">কোর্স সমূহ</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">ওয়েব ডিজাইন এবং ডেভেলপমেন্ট</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="Course Category Page.html">গ্রাফিক্স ডিজাইন</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">ভিডিও এডিটিং</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#">যোগাযোগ</a></li>
+
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">এডমিশন</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">এডমিশন ফর্ম</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">সার্টিফিকেট ভেরিফাই</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">রেজাল্ট</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#">রেজাল্ট </a></li>
+
+                    </ul>
+                </div>
+
+                <div class="collapse navbar-collapse signup_in" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item nav-gap"><a class="nav-link sign_in" href="sign-in.html">সাইন ইন</a></li>
+                        <li class="nav-divider">|</li>
+                        <li class="nav-item nav-gap"><a class="nav-link nav-bg" href="sign-up.html">সাইন আপ </a></li>
+                    </ul>
+                </div>
+
+                <!-- offcanvas menu part start -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-top my_offcanvas_responsive" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+
+                        <div class="nav_logo wow animate__animated animate__bounce animate__infinite"
+                            style="--animate-duration: 3s;">
+                            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+                        </div>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav flex-center-custom mb-2 mb-lg-0">
+
+                            <li class="nav-item"><a class="nav-link" href="#">হোম</a></li>
+
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">কোর্স সমূহ</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">ওয়েব ডিজাইন এবং ডেভেলপমেন্ট</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="Course Category Page.html">গ্রাফিক্স ডিজাইন</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">ভিডিও এডিটিং</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="#">যোগাযোগ</a></li>
+
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">এডমিশন</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">এডমিশন ফর্ম</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">সার্টিফিকেট ভেরিফাই</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">রেজাল্ট</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="#">রেজাল্ট </a></li>
+
+                        </ul>
+
+                        <div class="navbar-collapse signup_in" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item nav-gap"><a class="nav-link sign_in" href="sign-in.html">সাইন ইন</a>
+                                </li>
+                                <li class="nav-divider">|</li>
+                                <li class="nav-item nav-gap"><a class="nav-link nav-bg sign_up_responsive"
+                                        href="sign-up.html">সাইন আপ </a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- offcanvas menu part end -->
+
+            </div>
+        </nav>
+    </header>
+    <!-- header part end -->
+
+
+
+
+
+    <!-- search bar part start -->
+    <section id="search_bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <form class="d-flex" role="search">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <input class="form-control me-2 name" type="search" placeholder="কোর্স অনুসন্ধান করুন..."
+                            aria-label="Search">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- search bar part end -->
+
+
+
+
+
+    <!-- sidebar part start -->
+    <section id="sidebar">
+        <div class="row">
+
+            <div class="col-md-2">
+                <div class="sidebar_img animate__animated animate__pulse animate__infinite"
+                    style="--animate-duration: 2s;">
+                    <img src="img/sidebar.png" alt="">
+
+                    <div class="sidebar_icon">
+                        <ul>
+                            <li><a href="#"><img src="img/sidebar_icon_phone.svg" alt=""></a></li>
+                            <li>
+                                <hr>
+                            </li>
+                            <li><a href="#"><img src="img/sidebar_icon_email.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-10"></div>
+        </div>
+    </section>
+    <!-- sidebar part end -->
+
+
+
+
+
+    <!-- banner part start -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-7">
+                    <div class="banner_content">
+                        <h3>আমরাই সেরা</h3>
+                        <h2><strong>আইটি ট্রেনিং ইনস্টিটিউট</strong></h2>
+                        <h6>আন্তর্জাতিক মানের <strong>কোর্স মডিউল</strong> এবং <strong>দক্ষ মেন্টরের</strong> সহায়তায়
+                            প্রফেশনাল স্কিল
+                            <br> শিখুন; নিজেকে তৈরী করুন !
+                        </h6>
+
+                        <div class="join_taketour_img_flex_custom">
+                            <a class="join" href="Course Category Page.html"><strong>জয়েন করুন</strong></a>
+                            <a class="take_tour" href="#">টেইক এ ট্যুর </a>
+                        </div>
+
+                        <img class="img1" src="img/banner_circle.png" alt="">
+                        <img class="img2" src="img/banner video.png" alt="">
+
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="banner_img">
+                        <img src="img/banner.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- banner part end -->
+
+
+
+
+
+    <!-- service part start -->
+    <section id="service_part">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-6">
+                    <div class="card border-info mb-3 service_main wow animate__animated animate__fadeInLeft"
+                        style="--animate-duration: 2s;" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h6 class="card-title"><strong>10,000+</strong></h6>
+                            <p class="card-text">প্রশিক্ষনার্থী</p>
+
+                            <img class="imgbg" src="img/service_bg.png" alt="">
+                            <img class="img1" src="img/service_pic1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="card border-info mb-3 service_main wow animate__animated animate__flipInX"
+                        style="--animate-duration: 2s;" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h6 class="card-title"><strong>সাকসেস</strong></h6>
+                            <p class="card-text">1000 + স্টুডেন্টস ফিডব্যাক</p>
+
+                            <img class="imgbg" src="img/service_bg.png" alt="">
+                            <img class="img2" src="img/service_pic2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="card border-info mb-3 service_main wow animate__animated animate__flipInX"
+                        style="--animate-duration: 2s;" style="max-width: 18rem;">
+                        <div class="card-body">
+                            <h6 class="card-title"><strong>ইন্ডাস্ট্রি</strong></h6>
+                            <p class="card-text">900 + জব প্লেসমেন্ট</p>
+
+                            <img class="imgbg" src="img/service_bg.png" alt="">
+                            <img class="img3" src="img/service_pic3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="card border-info mb-3 service_main wow animate__animated animate__fadeInRight"
+                        style="--animate-duration: 2s;" style=" max-width: 18rem;">
+                        <div class="card-body">
+                            <h6 class="card-title"><strong>এক্সপার্ট</strong></h6>
+                            <p class="card-text">50 + প্রশিক্ষক</p>
+
+                            <img class="imgbg" src="img/service_bg.png" alt="">
+                            <img class="img4" src="img/service_pic4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- service part end -->
+
+
+
+
+
+    <!-- category part start -->
+    <section id="catagory">
+        <div class="container">
+
+            <!-- common heading part start (main) -->
+            <div class="common_header">
+
+                <div class="col-md-12">
+                    <div class="catagory_title"><b>ক্যাটাগরি</b> <strong>পছন্দ করুন</strong></div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="catagory_design">
+                        <img src="img/catagory_design.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- common heading part end (main) -->
+
+            <div class="row">
+
+                <!-- category cards part start -->
+                <div
+                    class="col-md-3 full_catagory_card_flex_custom wow animate__animated animate__backInRight animate__slow">
+                    <div class="card border-info  catagory_main" style="max-width: 18rem;">
+                        <div class="card-body catagory_content">
+
+                            <div class="catagory_hover_overlay">
+                                <a href="Course Category Page.html"><img class="hover_img"
+                                        src="img/catagory_hover_img.png" alt=""></a>
+                            </div>
+
+                            <img src="img/catagory1.png" alt="">
+                            <h6 class="card-text"><strong>গ্রাফিক্স</strong> ডিজাইন</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-md-3 full_catagory_card_flex_custom wow animate__animated animate__backInRight animate__slow">
+                    <div class="card border-info  catagory_main" style="max-width: 18rem;">
+                        <div class="card-body catagory_content">
+
+                            <div class="catagory_hover_overlay">
+                                <img class="hover_img" src="img/catagory_hover_img.png" alt="">
+                            </div>
+
+                            <img src="img/catagory2.png" alt="">
+                            <h6 class="card-text"><strong>ওয়েব</strong> ডিজাইন</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-md-3 full_catagory_card_flex_custom wow animate__animated animate__backInLeft animate__slow">
+                    <div class="card border-info  catagory_main" style="max-width: 18rem;">
+                        <div class="card-body catagory_content">
+
+                            <div class="catagory_hover_overlay">
+                                <img class="hover_img" src="img/catagory_hover_img.png" alt="">
+                            </div>
+
+                            <img src="img/catagory3.png" alt="">
+                            <h6 class="card-text"><strong>ওয়েব</strong> ডেভলপমেন্ট</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-md-3 full_catagory_card_flex_custom wow animate__animated animate__backInLeft animate__slow">
+                    <div class="card border-info  catagory_main" style="max-width: 18rem;">
+                        <div class="card-body catagory_content">
+
+                            <div class="catagory_hover_overlay">
+                                <img class="hover_img" src="img/catagory_hover_img.png" alt="">
+                            </div>
+
+                            <img src="img/catagory4.png" alt="">
+                            <h6 class="card-text"><strong>ভিডিও</strong> এডিটিং</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-md-3 full_catagory_card_flex_custom wow animate__animated animate__backInRight animate__slow">
+                    <div class="card border-info  catagory_main" style="max-width: 18rem;">
+                        <div class="card-body catagory_content">
+
+                            <div class="catagory_hover_overlay">
+                                <img class="hover_img" src="img/catagory_hover_img.png" alt="">
+                            </div>
+
+                            <img src="img/catagory5.png" alt="">
+                            <h6 class="card-text"><strong>ডিজিটাল</strong> মার্কেটিং</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-md-3 full_catagory_card_flex_custom wow animate__animated animate__backInRight animate__slow">
+                    <div class="card border-info  catagory_main" style="max-width: 18rem;">
+                        <div class="card-body catagory_content">
+
+                            <div class="catagory_hover_overlay">
+                                <img class="hover_img" src="img/catagory_hover_img.png" alt="">
+                            </div>
+
+                            <img src="img/catagory6.png" alt="">
+                            <h6 class="card-text img6_content"><strong>ইউ আই/ইউ এক্স</strong> ডিজাইন</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-md-3 full_catagory_card_flex_custom wow animate__animated animate__backInLeft animate__slow">
+                    <div class="card border-info  catagory_main" style="max-width: 18rem;">
+                        <div class="card-body catagory_content">
+
+                            <div class="catagory_hover_overlay">
+                                <img class="hover_img" src="img/catagory_hover_img.png" alt="">
+                            </div>
+
+                            <img src="img/catagory7.png" alt="">
+                            <h6 class="card-text img6_content"><strong>মাইক্রোসফট</strong> অফিস</h6>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-md-3 full_catagory_card_flex_custom wow animate__animated animate__backInLeft animate__slow">
+                    <div class="card border-info  catagory_main" style="max-width: 18rem;">
+                        <div class="card-body catagory_content">
+
+                            <div class="catagory_hover_overlay">
+                                <img class="hover_img" src="img/catagory_hover_img.png" alt="">
+                            </div>
+
+                            <img src="img/catagory8.png" alt="">
+                            <h6 class="card-text"><strong>অ্যাপ</strong> ডেভলপমেন্ট</h6>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- category cards part end -->
+
+            </div>
+        </div>
+    </section>
+    <!-- category part end -->
+
+
+
+
+
+    <!-- community part start -->
+    <!-- Also used in instructor part -->
+    <!-- Also used in personal learning part -->
+    <section id="community">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 wow animate__animated animate__fadeInLeft" style="--animate-duration: 2s;">
+                    <div class="community_img">
+                        <img class="community_main_img1" src="img/community_video_background.svg" alt="">
+                        <a class="img_video" data-autoplay="true" data-maxwidth="70%" data-vbtype="video"
+                            href="https://www.youtube.com/watch?v=oJz9IlP2yl4"><img class="community_main_img2"
+                                src="img/community_video_img.png" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 wow animate__animated animate__fadeInRight" style="--animate-duration: 2s;">
+                    <div class="community_content">
+                        <img src="img/community_content_bg.png" alt="">
+                        <p><strong>আমাদের কমিউনিটিতে</strong> জয়েন করুন</p>
+                        <h6>বিভিন্ন <strong>লার্নিং টিপস</strong> ও কোর্স সংক্রান্ত আপডেট এবং <strong>বিশ্বমানের সেরা
+                                মেন্টরদের</strong> গাইড পেতে আমাদের কমিউনিটিতে জয়েন করুন!</h6>
+                        <a href="#">জয়েন করুন</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- community part end -->
+
+
+
+
+    <!-- অন্যান্য সুবিধা সমূহ part start -->
+    <section id="benifit_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card border-info mb-3 benifits_main">
+
+                        <div class="benifit_background">
+                            <img class="benifit_bg" src="img/option_bg.png" alt="">
+
+                            <!-- common heading part start -->
+                            <div class="common_header">
+
+                                <div class="col-md-12">
+                                    <div class="catagory_title"><b>অন্যান্য</b><strong> সুবিধা সমূহ</strong></div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="catagory_design benifit_design">
+                                        <img src="img/heading_part_design.png" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- common heading part end -->
+
+                            <!-- option/icon part start -->
+                            <div class="row">
+
+                                <div class="col-md-3 "></div>
+
+                                <div class="col-md-2 col-4 full_catagory_card_flex_custom">
+                                    <div class="option_main">
+                                        <div class="option_icon wow animate__animated animate__fadeInLeft">
+                                            <a href="#"><img src="img/option1.png" alt=""></a>
+                                        </div>
+
+                                        <div class="option_title">
+                                            <h4>জব খুজুন</h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2 col-4 full_catagory_card_flex_custom">
+                                    <div class="option_main">
+                                        <div class="option_icon wow animate__animated animate__bounce">
+                                            <a href="#"><img src="img/option2.png" alt=""></a>
+                                        </div>
+
+                                        <div class="option_title">
+                                            <h4>কোর্স সমূহ</h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2 col-4 full_catagory_card_flex_custom">
+                                    <div class="option_main">
+                                        <div class="option_icon wow animate__animated animate__fadeInRight">
+                                            <a href="#"> <img src="img/option3.png" alt=""></a>
+                                        </div>
+
+                                        <div class="option_title">
+                                            <h4>ফ্রীলান্সিং</h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3"></div>
+
+                            </div>
+
+                        </div>
+                        <!-- option/icon part end -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- অন্যান্য সুবিধা সমূহ part end -->
+
+
+
+
+
+    <!-- instructor part start -->
+    <!-- Also used in community part -->
+    <!-- Also used in personal learning part -->
+    <section id="community">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 wow animate__animated animate__fadeInLeft" style="--animate-duration: 2s;">
+                    <div class="community_img">
+                        <img class="instructor_img_responsive" src="img/instractor.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 wow animate__animated animate__fadeInRight" style="--animate-duration: 2s;">
+                    <div class="community_content instructor_content">
+                        <p>আপনি কি <strong>ইন্সট্রাক্টর হতে চান?</strong></p>
+                        <h6>বাংলাদেশের দক্ষ জনশক্তি গড়ে তুলতে আগ্রহী থাকলে জয়েন করুন <br>
+                            ইউ আই ল্যাবের <strong>এক্সপার্ট ইন্সট্রাক্টরদের</strong> টিমে!</h6>
+                        <a href="#">জয়েন করুন</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- instructor part end -->
+
+
+
+
+
+    <!-- card group area part start -->
+    <section id="card_group">
+
+        <div class="card_grp_bg_main2">
+            <img class="card_grp_bg2" src="img/card_grp_bg2.png" alt="">
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div
+                        class="card border-info mb-3 subscribe_card_body card_group_body wow animate__animated animate__flipInX animate__slow">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="card_grp_bg_main1">
+                                    <img class="card_grp_bg1" src="img/card_grp_bg1.png" alt="">
+                                </div>
+
+                                <!-- 1st 3 coloum start -->
+                                <div class="col-md-3 col-6">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <div class="card_group_coloum_icon">
+                                                <img src="img/card_group1.png" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class=" col-md-7">
+                                            <div class="card_group_coloum_content">
+                                                <h4><span class="num1">80</span>+</h4>
+                                                <p>লাইভ ক্লাস</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-1">
+                                            <div class="card_group_coloum_devider"></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- 1st 3 coloum end -->
+
+                                <!-- 2nd 3 coloum start -->
+                                <div class="col-md-3 col-6">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <div class="card_group_coloum_icon">
+                                                <img src="img/card_group2.png" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class=" col-md-7">
+                                            <div class="card_group_coloum_content">
+                                                <h4><span class="num2">120</span>+</h4>
+                                                <p>মোট কোর্স</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-1">
+                                            <div class="card_group_coloum_devider card_group_coloum_devider_responsive">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- 2nd 3 coloum end -->
+
+                                <!-- 3rd 3 coloum start -->
+                                <div class="col-md-3 col-6">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <div class="card_group_coloum_icon">
+                                                <img src="img/card_group3.png" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class=" col-md-7">
+                                            <div class="card_group_coloum_content">
+                                                <h4><span class="num3">115</span>+</h4>
+                                                <p>প্রশিক্ষক</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-1">
+                                            <div class="card_group_coloum_devider"></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- 3rd 3 coloum end -->
+
+                                <!-- 4th 3 coloum start -->
+                                <div class="col-md-3 col-6">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <div class="card_group_coloum_icon">
+                                                <img src="img/card_group4.png" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class=" col-md-7">
+                                            <div class="card_group_coloum_content">
+                                                <h4><span class="num4">4000</span>+</h4>
+                                                <p>প্রশিক্ষনার্থী</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- <div class="col-md-1">
+                                            <div class="card_group_coloum_devider">|</div>
+                                        </div> -->
+
+                                    </div>
+                                </div>
+                                <!-- 4th 3 coloum end -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- card group area part end -->
+
+
+
+
+
+    <!-- কোর্স বান্ডেল সমূহ part start -->
+    <section id="course_bundle">
+        <div class="container">
+            <div class="row">
+
+                <!-- common heading part start -->
+                <div class="common_header">
+
+                    <div class="col-md-12">
+                        <div class="catagory_title"><b>কোর্স</b> <strong>বান্ডেল সমূহ</strong></div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="catagory_design course_bundle_design">
+                            <img src="img/catagory_design.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- common heading part end -->
+
+                <!-- course bundle part start -->
+                <div class="row row-cols-1 row-cols-md-12 row-cols-12 g-4 prianka">
+
+                    <!-- card number 1 part start -->
+                    <div class="col-md-3 col-3 wow animate__animated animate__flipInY animate__slow">
+                        <div class="col">
+                            <div class="card h-100 border-info course_bundle_card">
+
+                                <img class="course_bundle_card_img_main" src="img/course_bundle_img.png"
+                                    class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title course_bundle_card_title">গ্রাফিক্স ডিজাইন ও ফ্রিলান্সিং ফুল
+                                        কোর্স</h5>
+                                </div>
+
+                                <!-- card mid part start -->
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-md-7 col-6">
+                                            <div class="course_rating">
+                                                <ul>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li>
+                                                        <p>(0)</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5 col-5">
+                                            <div class="course_ammount">
+                                                <h5><strong>3000 টাকা</strong></h5>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- card mid part end -->
+
+                                <!-- card footer part start -->
+                                <div class="card-footer">
+                                    <div class="container-fluid">
+                                        <div class="row">
+
+                                            <!-- 1st 6 coloum start -->
+                                            <div class="col-md-6 col-6">
+                                                <div class="row">
+
+                                                    <div class="col-md-3 col-4">
+                                                        <div class="course_bundle_footer_img">
+                                                            <img src="img/rasel_islam_course_bundle_footer.png" alt="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class=" col-md-9 col-8">
+                                                        <div class="course_bundle_content1">
+                                                            <h4>প্রশিক্ষক</h4>
+                                                            <p>Md. Saiful Islam</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- 1st 6 coloum end -->
+
+                                            <!-- 2nd 5 coloum start -->
+                                            <div class="col-md-6 col-6">
+                                                <div class="row">
+
+                                                    <div class="col-md-3 col-1">
+                                                        <div class="course_bundle_coloum_devider"></div>
+                                                    </div>
+
+                                                    <div class=" col-md-9 col-11">
+                                                        <div class="course_bundle_content2">
+                                                            <h4>মোট ক্লাস টাইম</h4>
+                                                            <p>12H : 30M</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- 2nd 5 coloum end -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card footer part end -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card number 1 part end -->
+
+                    <!-- card number 2 part start -->
+                    <div class="col-md-3 col-3 wow animate__animated animate__flipInY animate__slow">
+                        <div class="col">
+                            <div class="card h-100 border-info course_bundle_card">
+
+                                <img class="course_bundle_card_img_main" src="img/course_bundle_img.png"
+                                    class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title course_bundle_card_title">গ্রাফিক্স ডিজাইন ও ফ্রিলান্সিং ফুল
+                                        কোর্স</h5>
+                                </div>
+
+                                <!-- card mid part start -->
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-md-7 col-6">
+                                            <div class="course_rating">
+                                                <ul>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li>
+                                                        <p>(0)</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5 col-5">
+                                            <div class="course_ammount">
+                                                <h5><strong>3000 টাকা</strong></h5>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- card mid part end -->
+
+                                <!-- card footer part start -->
+                                <div class="card-footer">
+                                    <div class="container-fluid">
+                                        <div class="row">
+
+                                            <!-- 1st 6 coloum start -->
+                                            <div class="col-md-6 col-6">
+                                                <div class="row">
+
+                                                    <div class="col-md-3 col-4">
+                                                        <div class="course_bundle_footer_img">
+                                                            <img src="img/course_bundle_footer_img.png" alt="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class=" col-md-9 col-8">
+                                                        <div class="course_bundle_content1">
+                                                            <h4>প্রশিক্ষক</h4>
+                                                            <p>Md. Saiful Islam</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- 1st 6 coloum end -->
+
+                                            <!-- 2nd 5 coloum start -->
+                                            <div class="col-md-6 col-6">
+                                                <div class="row">
+
+                                                    <div class="col-md-3 col-1">
+                                                        <div class="course_bundle_coloum_devider"></div>
+                                                    </div>
+
+                                                    <div class=" col-md-9 col-11">
+                                                        <div class="course_bundle_content2">
+                                                            <h4>মোট ক্লাস টাইম</h4>
+                                                            <p>12H : 30M</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- 2nd 5 coloum end -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card footer part end -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card number 2 part end -->
+
+                    <!-- card number 3 part start -->
+                    <div class="col-md-3 col-3 wow animate__animated animate__flipInY animate__slow">
+                        <div class="col">
+                            <div class="card h-100 border-info course_bundle_card">
+
+                                <img class="course_bundle_card_img_main" src="img/course_bundle_img.png"
+                                    class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title course_bundle_card_title">গ্রাফিক্স ডিজাইন ও ফ্রিলান্সিং ফুল
+                                        কোর্স</h5>
+                                </div>
+
+                                <!-- card mid part start -->
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-md-7 col-6">
+                                            <div class="course_rating">
+                                                <ul>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li>
+                                                        <p>(0)</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5 col-5">
+                                            <div class="course_ammount">
+                                                <h5><strong>3000 টাকা</strong></h5>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- card mid part end -->
+
+                                <!-- card footer part start -->
+                                <div class="card-footer">
+                                    <div class="container-fluid">
+                                        <div class="row">
+
+                                            <!-- 1st 6 coloum start -->
+                                            <div class="col-md-6 col-6">
+                                                <div class="row">
+
+                                                    <div class="col-md-3 col-4">
+                                                        <div class="course_bundle_footer_img">
+                                                            <img src="img/rasel_islam_course_bundle_footer.png" alt="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class=" col-md-9 col-8">
+                                                        <div class="course_bundle_content1">
+                                                            <h4>প্রশিক্ষক</h4>
+                                                            <p>Md. Saiful Islam</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- 1st 6 coloum end -->
+
+                                            <!-- 2nd 5 coloum start -->
+                                            <div class="col-md-6 col-6">
+                                                <div class="row">
+
+                                                    <div class="col-md-3 col-1">
+                                                        <div class="course_bundle_coloum_devider"></div>
+                                                    </div>
+
+                                                    <div class=" col-md-9 col-11">
+                                                        <div class="course_bundle_content2">
+                                                            <h4>মোট ক্লাস টাইম</h4>
+                                                            <p>12H : 30M</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- 2nd 5 coloum end -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card footer part end -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card number 3 part end -->
+
+                    <!-- card number 4 part start -->
+                    <div class="col-md-3 col-3 wow animate__animated animate__flipInY animate__slow">
+                        <div class="col">
+                            <div class="card h-100 border-info course_bundle_card">
+
+                                <img class="course_bundle_card_img_main" src="img/course_bundle_img.png"
+                                    class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title course_bundle_card_title">গ্রাফিক্স ডিজাইন ও ফ্রিলান্সিং ফুল
+                                        কোর্স</h5>
+                                </div>
+
+                                <!-- card mid part start -->
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-md-7 col-6">
+                                            <div class="course_rating">
+                                                <ul>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li>
+                                                        <p>(0)</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5 col-5">
+                                            <div class="course_ammount">
+                                                <h5><strong>3000 টাকা</strong></h5>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- card mid part end -->
+
+                                <!-- card footer part start -->
+                                <div class="card-footer">
+                                    <div class="container-fluid">
+                                        <div class="row">
+
+                                            <!-- 1st 6 coloum start -->
+                                            <div class="col-md-6 col-6">
+                                                <div class="row">
+
+                                                    <div class="col-md-3 col-4">
+                                                        <div class="course_bundle_footer_img">
+                                                            <img src="img/course_bundle_footer_img.png" alt="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class=" col-md-9 col-8">
+                                                        <div class="course_bundle_content1">
+                                                            <h4>প্রশিক্ষক</h4>
+                                                            <p>Md. Saiful Islam</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- 1st 6 coloum end -->
+
+                                            <!-- 2nd 5 coloum start -->
+                                            <div class="col-md-6 col-6">
+                                                <div class="row">
+
+                                                    <div class="col-md-3 col-1">
+                                                        <div class="course_bundle_coloum_devider"></div>
+                                                    </div>
+
+                                                    <div class=" col-md-9 col-11">
+                                                        <div class="course_bundle_content2">
+                                                            <h4>মোট ক্লাস টাইম</h4>
+                                                            <p>12H : 30M</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- 2nd 5 coloum end -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card footer part end -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card number 4 part end -->
+
+                    <!-- card number 5 part start -->
+                    <div class="col-md-3 col-3 wow animate__animated animate__flipInY animate__slow">
+                        <div class="col">
+                            <div class="card h-100 border-info course_bundle_card">
+
+                                <img class="course_bundle_card_img_main" src="img/course_bundle_img.png"
+                                    class="card-img-top" alt="...">
+
+                                <div class="card-body">
+                                    <h5 class="card-title course_bundle_card_title">গ্রাফিক্স ডিজাইন ও ফ্রিলান্সিং ফুল
+                                        কোর্স</h5>
+                                </div>
+
+                                <!-- card mid part start -->
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-md-7 col-6">
+                                            <div class="course_rating">
+                                                <ul>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li><img src="img/course_bundle_star_img.png" alt=""></li>
+                                                    <li>
+                                                        <p>(0)</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-5 col-5">
+                                            <div class="course_ammount">
+                                                <h5><strong>3000 টাকা</strong></h5>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- card mid part end -->
+
+                                <!-- card footer part start -->
+                                <div class="card-footer">
+                                    <div class="container-fluid">
+                                        <div class="row">
+
+                                            <!-- 1st 6 coloum start -->
+                                            <div class="col-md-6 col-6">
+                                                <div class="row">
+
+                                                    <div class="col-md-3 col-4">
+                                                        <div class="course_bundle_footer_img">
+                                                            <img src="img/rasel_islam_course_bundle_footer.png" alt="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class=" col-md-9 col-8">
+                                                        <div class="course_bundle_content1">
+                                                            <h4>প্রশিক্ষক</h4>
+                                                            <p>Md. Saiful Islam</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- 1st 6 coloum end -->
+
+                                            <!-- 2nd 5 coloum start -->
+                                            <div class="col-md-6 col-6">
+                                                <div class="row">
+
+                                                    <div class="col-md-3 col-1">
+                                                        <div class="course_bundle_coloum_devider"></div>
+                                                    </div>
+
+                                                    <div class=" col-md-9 col-11">
+                                                        <div class="course_bundle_content2">
+                                                            <h4>মোট ক্লাস টাইম</h4>
+                                                            <p>12H : 30M</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- 2nd 5 coloum end -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- card footer part end -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card number 5 part end -->
+
+                </div>
+                <!-- course bundle part end -->
+
+            </div>
+        </div>
+    </section>
+    <!-- কোর্স বান্ডেল সমূহ part end -->
+
+
+
+
+
+    <!-- personal learning part start -->
+    <!-- Also used in community part -->
+    <!-- Also used in instructor part -->
+
+    <section id="community">
+        <div class="container">
+            <div class="row personal_learning_responsive">
+
+                <div class="col-md-6 wow animate__animated animate__fadeInLeft" style="--animate-duration: 2s;">
+                    <div class="community_content personal_learning_content">
+                        <img src="img/personal_learning_bg.png" alt="">
+                        <p>গেট পার্সোনাল লার্নিং <strong> রেকমেন্ডেশনস</strong></p>
+                        <h6>সময়উপযোগী টিপস যা<strong> আপনার ক্যারিয়ারের অগ্রযাত্রায়</strong> বিশেষ ভূমিকা <br> পালন
+                            করবে!
+                            চলুন শুরু করি!</h6>
+                        <a href="#">জয়েন করুন</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 wow animate__animated animate__fadeInRight" style="--animate-duration: 2s;">
+                    <div class="community_img personal_learning_content_img_responsive">
+                        <img src="img/personal_learning.png" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- personal learning part end -->
+
+
+
+
+
+    <!-- ট্রেনিং পার্টনার part start -->
+    <section id="training_partner_part">
+        <div class="container">
+            <div class="row ">
+
+                <div class="last_part_bg_img">
+                    <img src="img/subscribe_bg.png" alt="">
+                </div>
+
+                <!-- common heading part start -->
+                <div class="common_header">
+
+                    <div class="col-md-12">
+                        <div class="catagory_title"><b>ট্রেনিং</b> <strong>পার্টনার</strong></div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="catagory_design course_bundle_design training_partner_part_design">
+                            <img src="img/heading_part_design.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- common heading part end -->
+
+                <!-- training partner card part start -->
+                <div class="trainig_partner_part_card prianka">
+
+                    <div class="col-md-3 wow animate__animated animate__flipInX animate__slow">
+                        <div class="card border-info mb-3 service_main training_partner_main" style="max-width: 18rem;">
+                            <div class="card-body">
+                                <img src="img/training_partner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 wow animate__animated animate__flipInX animate__slow">
+                        <div class="card border-info mb-3 service_main training_partner_main" style="max-width: 18rem;">
+                            <div class="card-body">
+                                <img src="img/training_partner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 wow animate__animated animate__flipInX animate__slow">
+                        <div class="card border-info mb-3 service_main training_partner_main" style="max-width: 18rem;">
+                            <div class="card-body">
+                                <img src="img/training_partner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 wow animate__animated animate__flipInX animate__slow">
+                        <div class="card border-info mb-3 service_main training_partner_main" style="max-width: 18rem;">
+                            <div class="card-body">
+                                <img src="img/training_partner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 wow animate__animated animate__flipInX animate__slow">
+                        <div class="card border-info mb-3 service_main training_partner_main" style="max-width: 18rem;">
+                            <div class="card-body">
+                                <img src="img/training_partner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- training partner card part end -->
+
+            </div>
+        </div>
+    </section>
+    <!-- ট্রেনিং পার্টনার part end -->
+
+
+
+
+
+    <!-- subscribe part start -->
+    <section id="subscribe">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div
+                        class="card border-info mb-3 subscribe_card_body wow animate__animated animate__bounce animate__slow">
+                        <div class="card-body">
+
+                            <img class="subscribe_bg" src="img/subscribe_bg.png" alt="">
+
+                            <div class="col-md-4">
+                                <div class="community_content personal_learning_content subscribe_content">
+                                    <p>সকল আপডেট পেতে <br><strong> সাবস্ক্রাইব করুন</strong></p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8">
+                                <nav class="navbar">
+                                    <div class="container">
+                                        <form class="d-flex subscribe_box_main" role="search">
+                                            <input class="form-control me-2 subscribe_box1" type="email"
+                                                placeholder="আপনার ইমেইল এড্রেস টাইপ করুন" aria-label="submit">
+                                            <button class="btn subscribe_box2"
+                                                type="submit"><strong>সাবস্ক্রাইব</strong></button>
+                                        </form>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <!-- popup modal part start -->
+                            <div id="popupModal" class="popup">
+                                <h2>!!! Success !!!</h2><br>
+                                <p>You have successfully subscribed <br> Welcome to <img class="img-fluid"
+                                        src="img/footer-logo.png" alt=""></p>
+                            </div>
+                            <!-- popup modal part end -->
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- subscribe part end -->
+
+
+
+
+
+    <!-- footer part start -->
+    <footer>
+        <div class="container">
+            <!-- row 1 part start -->
+            <div class="row">
+
+                <!-- 1st 4 coloum footer part start -->
+                <div class="col-md-4 col1_responsive">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="menu1">
+                                <a href="index.html"><img src="img/footer-logo.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 pe-5">
+                            <div class="menu1_content">
+                                <p>১১ বীর উত্তম এ কে খন্দকার রোড, 31 মহাখালী বাণিজ্যিক এলাকা,
+                                    কলম্বিয়া সুপার মার্কেট, 4র্থ তলা, ওয়্যারলেস গেট, ১২১৩, ঢাকা । </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 1st 4 coloum footer part end -->
+
+                <!-- 2nd 2 coloum footer part start -->
+                <div class="col-md-2 col-5">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="menu2">
+                                <h4>পৃষ্ঠাগুলি</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="menu2_list">
+                                <ul>
+                                    <li><a href="#">হোম</a></li>
+                                    <li><a href="Course Category Page.html">কোর্স সমূহ</a></li>
+                                    <li><a href="#">এডমিশন</a></li>
+                                    <li><a href="#">রেজাল্ট </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 2nd 2 coloum footer part end -->
+
+                <!-- 3rd 2 coloum footer part start -->
+                <div class="col-md-2 col-7 onnanno_responsive">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="menu2">
+                                <h4>অন্যান্য</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="menu2_list">
+                                <ul>
+                                    <li><a href="#">চাকুরী খুঁজুন</a></li>
+                                    <li><a href="#">ফ্রীলান্সিং</a></li>
+                                    <li><a href="#">কোর্স বান্ডেল</a></li>
+                                    <li><a href="#">ফ্রি সেমিনারের সময়সূচি</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 3rd 2 coloum footer part end -->
+
+                <!-- 4th 4 coloum footer part start -->
+                <div class="col-md-4 ps-5 jogajog_responsive">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="menu2">
+                                <h4>যোগাযোগ</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="menu4_list_main">
+
+                                <ul class="menu4_list1">
+                                    <li><a href="#">Tel.: 01783-838382</a></li>
+                                    <li><a href="#">contact@uylab.org</a></li>
+                                </ul>
+
+                                <ul class="menu4_list2">
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 4th 4 coloum footer part end -->
+
+            </div>
+            <!-- row 1 part end -->
+
+            <!-- row 2 part start -->
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="hr">
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="last_part">
+                        <p>কপিরাইট &copy; 2023 UY LAB | সমস্ত অধিকার সংরক্ষিত</p>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!-- row 2 part end -->
+
+        </div>
+    </footer>
+    <!-- footer part end -->
+    <!-- ###################################################################### -->
+
+
+
+
+
+    <!-- JS html part start -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/jquery.numscroll.min.js"></script> <!-- ||for counter jsplugin -->
+    <script src="js/jquery.numscroll.js"></script> <!-- ||for counter jsplugin -->
+    <script src="js/xsalert.js"></script> <!-- ||for subscribe popup -->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="js/custom.js"></script>
+    <!-- JS html part end -->
+</body>
+
+</html>

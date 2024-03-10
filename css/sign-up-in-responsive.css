@@ -1,0 +1,178 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .form_main form input {
+        background-color: white;
+        /* width: 240%; */
+        /* width: 133%; */
+        /* margin-left: -16%; */
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 18px;
+    }
+
+    /* sign up button part start */
+    .form_main form button {
+        /* width: 160%; */
+        width: 100%;
+        margin-left: 0%;
+        transition: all linear .5s !important;
+    }
+
+    /* sign up button part end */
+
+    /* eye button part start */
+    .demo {
+        position: absolute;
+        top: 28%;
+        left: 82%;
+        cursor: pointer;
+    }
+
+    /* eye button part end */
+
+    /* background img1 part start */
+    .background_img1 {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+
+    .background_img2 {
+        position: absolute;
+        top: 65%;
+        left: 0%;
+    }
+
+    /* background img1 part end */
+
+    /* logo img part start */
+    .logo img {
+        width: 70%;
+    }
+
+    .logo {
+        padding-top: 5%;
+        left: 21%;
+        text-align: center;
+    }
+
+    /* logo img part end */
+
+    /* content (welcome back) part start */
+    .content_main {
+        /* position: absolute; */
+        left: 11%;
+        text-align: center;
+        padding-top: 22%;
+
+        align-items: center;
+        justify-content: center;
+        display: inline-grid;
+    }
+
+    .content_main h4 {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 45px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .content_main h6 {
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: 2.5%;
+        text-align: center;
+    }
+
+    /* content (welcome back) part end */
+
+    /* sign up content part start */
+
+    .sign_up_content {
+        margin-left: 1%;
+        text-align: center;
+    }
+
+    .sign_up_content h4 {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+    }
+
+    .sign_up_content h6 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: white;
+        text-align: center;
+    }
+
+    /* sign up content part ens */
+
+    /* sign up form part start */
+    .sign_up_form1_responsive {
+        position: relative;
+    }
+
+    .sign_up_form2_responsive {
+        position: absolute;
+        top: 24%;
+        left: 0%;
+    }
+
+    /* sign up form part end */
+
+    /* last line part start */
+    .form_main .sign_up_p1 {
+        text-align: center;
+        color: white;
+    }
+
+    .form_main p .sign_up_p2 {
+        color: white;
+    }
+
+    /* last line part end */
+
+
+
+
+
+    /* sign in part start */
+    .form_main_responsive_sign_in {
+        margin-top: -6.5% !important;
+    }
+
+    /* background img 2 part start */
+    .background_img2_sign_in {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+    }
+
+    /* background img 2 part end */
+
+    .content_main_responsive_sign_in {
+        margin-left: 9%;
+    }
+
+    /* last line part start */
+    .form_main p .forget_pass1,
+    .form_main p .forget_pass2 {
+        text-align: center;
+        color: white;
+    }
+
+    /* last line part end */
+    /* sign in part end */
+
+}

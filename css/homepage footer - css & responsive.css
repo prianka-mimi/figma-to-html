@@ -1,0 +1,444 @@
+/* header css part start */
+header {
+	position: sticky;
+	top: 0;
+	background-color: white;
+	box-shadow: 1px 1px 4px whitesmoke;
+	z-index: 999;
+	width: 100%;
+}
+
+.flex-center-custom {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-left: 10rem;
+	margin-top: 6px;
+}
+
+.navbar-nav .nav-item .nav-link {
+	box-shadow: none;
+
+	font-family: "Baloo Da 2";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #000000;
+
+	padding: 0 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: #0094FF;
+}
+
+.navbar-nav .nav-item:hover .dropdown-menu {
+	display: block;
+}
+
+.navbar-nav .dropdown-menu li {
+	margin: 0 15px;
+}
+
+.navbar-nav .dropdown-menu li .dropdown-item {
+	margin: 6px 0;
+
+	font-family: "Baloo Da 2";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #616161;
+}
+
+.navbar-nav .dropdown-menu li .dropdown-item:hover {
+	background: linear-gradient(180deg, #60BBFD 14.06%, #0585E1 100%);
+	border-radius: 4px;
+
+	font-family: "Baloo Da 2";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #FDFDFD;
+}
+
+/* navbar bootstarp part sart */
+.dropdown-divider {
+	opacity: 0.2;
+	color: #616161 !important;
+}
+
+/* navbar bootstarp part end */
+
+/* singup/in part start */
+
+.navbar-nav .nav-gap {
+	margin: 0 20px;
+}
+
+.navbar-nav .nav-divider {
+	margin: 5px 0;
+	color: gray;
+}
+
+.navbar-nav .nav-item .sign_in {
+	margin-top: 10px;
+}
+
+.navbar-nav .nav-item .sign_in:hover {
+	color: black;
+}
+
+.navbar-nav .nav-item .nav-bg {
+	background: #0067C6;
+	border-radius: 5px;
+	color: white;
+	padding: 9px 12px;
+	border-radius: 5px;
+}
+
+.navbar-nav .nav-item .nav-bg:hover {
+	color: white;
+}
+
+/* singup/in part end */
+
+/* offcanvas menu part start */
+.my_offcanvas_responsive {
+	display: none;
+}
+
+/* offcanvas menu part end */
+
+/* header css part end */
+
+
+
+
+
+/* header responsive part start */
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width: 991px) {
+
+	/* nav bar part start */
+	.flex-center-custom {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-left: 0rem;
+	}
+
+	/* nav bar button bootstarp part start */
+	.navbar-toggler {
+		/* color: var(--bs-navbar-color); */
+		color: black;
+		/* border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color); */
+		border: none;
+	}
+
+	.navbar-toggler:focus,
+	.btn-close:focus {
+		/* box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width); */
+		box-shadow: none;
+	}
+
+	/* nav bar button bootstarp part end */
+	/* nav bar part end */
+
+
+
+
+
+	/*ofcanvas menu part start*/
+	.my_offcanvas_responsive {
+		display: block;
+	}
+
+	.offcanvas-header .btn-close {
+		margin-right: calc(0.5 * var(--bs-offcanvas-padding-x));
+	}
+
+	/* bootstarp part start */
+	.offcanvas-header {
+		background-color: white;
+		box-shadow: 1px 1px 4px whitesmoke;
+	}
+
+	.offcanvas,
+	.offcanvas-lg,
+	.offcanvas-md,
+	.offcanvas-sm,
+	.offcanvas-xl,
+	.offcanvas-xxl {
+		/* --bs-offcanvas-height: 59vh; */
+		--bs-offcanvas-height: 84vh;
+	}
+
+	/* .navbar-nav .dropdown:hover .offcanvas .offcanvas-body  {
+        background-size: 120% auto;
+		--bs-offcanvas-height: 84vh;
+    } */
+
+	/* bootstarp part end */
+	/*ofcanvas menu part end*/
+
+
+
+
+
+	/* sign up sign in part start */
+	.signup_in .nav-divider {
+		display: none;
+	}
+
+	.signup_in .sign_in {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.signup_in .sign_up_responsive {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	/* sign up sign in part end */
+}
+
+
+
+
+
+/* ============================phone potrait part end====================== */
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width: 767px) { ... } */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991px) { ... } */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199px) { ... } */
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) and (max-width: 1399px) { ... } */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */
+
+/* header responsive part end */
+
+
+
+
+
+/* footer css part start */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Poppins&display=swap');
+
+footer {
+	background-color: rgba(0, 51, 99, 1);
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	color: #a9a9a9;
+	font-size: 15px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px;
+
+	padding: 45px 0 !important;
+}
+
+.menu1,
+.menu2 {
+	color: #F7F7F8;
+	font-size: 20px;
+	font-family: 'Baloo Da 2';
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+
+	margin-bottom: 20px;
+}
+
+.menu2_list li a,
+.menu4_list1 li a {
+	color: #a9a9a9;
+}
+
+.menu2_list li a:hover,
+.menu4_list1 li a:hover {
+	color: white;
+	font-size: 16px;
+	padding-left: 3px;
+	transition: all linear .3s;
+}
+
+.menu4_list1 {
+	margin-bottom: 6%;
+}
+
+.menu4_list2 {
+	display: flex;
+	gap: 1rem;
+}
+
+.menu4_list2 li a i {
+	font-size: 19px;
+	line-height: 19px;
+	color: #f8f8f8;
+	padding: 1rem;
+	background-color: #2fb1fa;
+	border-radius: 0.5rem;
+	transition: all linear .3s;
+}
+
+.menu4_list2 li a i:hover {
+	color: rgba(0, 0, 0, 0.61);
+	transition: all linear .3s;
+	font-weight: 700;
+}
+
+/* copyright claim part start */
+.hr hr {
+	margin: 30px 0;
+	color: #435A95;
+	opacity: 1;
+	height: 2px;
+}
+
+.last_part {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	color: #7d9fc1;
+	font-size: 16px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+}
+
+.last_part ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.last_part ul li a {
+	gap: 1rem !important;
+	margin: 0 15px;
+
+	color: #7d9fc1;
+	font-size: 16px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	display: block;
+}
+
+.last_part ul li a:hover {
+	color: #0585E1;
+	transition: all linear .3s;
+}
+
+/* copyright claim part end */
+
+/* footer css part end */
+
+
+
+
+
+/* footer responsive part start */
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width: 991px) {
+
+	footer {
+		font-size: 16px;
+	}
+
+	.menu1 {
+		text-align: center;
+	}
+
+	.col1_responsive .pe-5 {
+		text-align: center;
+		padding-right: 0rem !important;
+	}
+
+	.menu2 {
+		margin-top: 12%;
+	}
+
+	.onnanno_responsive {
+		text-align: right;
+	}
+
+	.jogajog_responsive {
+		text-align: center;
+		padding-left: 0rem !important;
+	}
+
+	.menu4_list2 {
+		gap: 2rem;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.last_part {
+		display: block;
+
+		align-items: center;
+		justify-content: center;
+		/* display: grid; */
+
+		color: #7d9fc1;
+		font-size: 13px;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 400;
+
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+
+
+
+
+/* ============================phone potrait part end====================== */
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width: 767px) { ... } */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+	.menu4_list2 {
+		gap: 1rem;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199px) { ... } */
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) and (max-width: 1399px) { ... } */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */
+
+
+/* footer responsive part end */

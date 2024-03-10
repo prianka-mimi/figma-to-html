@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Inter&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li,
+i,
+form,
+label,
+strong,
+header,
+nav,
+menu,
+section,
+footer {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* ######################################################### */
+
+
+
+
+/* course catagory page previous and next button part start */
+/* bootstarp part start */
+.breadcrumb {
+    margin-top: 2%;
+}
+
+/* bootstarp part end */
+.breadcrumb .breadcrumb-item a {
+    color: #878787;
+    font-size: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.breadcrumb .active a {
+    color: #0067C6;
+    text-transform: uppercase;
+}
+
+.breadcrumb .breadcrumb-item a:hover {
+    color: #2ECDFF;
+}
+
+/* course catagory page previous and next button part end */
+
+
+
+
+
+/* banner review part start */
+/* banner 1st 6 col img part start */
+/* banner img bootstarp part start */
+.banner_img .w-100 {
+    margin-top: 4%;
+    width: 100% !important;
+    height: 398px;
+    border-radius: 26px;
+}
+
+/* banner img bootstarp part end */
+.rating_part_main {
+    margin-left: 4%;
+}
+
+.rating_part_main ul li {
+    margin-top: 3%;
+    margin-left: 1%;
+    float: left;
+
+    color: #696969;
+    font-size: 16px;
+    font-family: 'Baloo Da 2';
+    line-height: 133%;
+}
+
+.rating_part_main ul li i {
+    color: #FC7900;
+    cursor: pointer;
+}
+
+/* banner 1st 6 col img part end */
+
+
+
+
+
+/* banner 2nd 6 col part start */
+.banner_content {
+    margin-top: 4%;
+}
+
+.banner_content h3 strong {
+    color: #00B6F1;
+    background: linear-gradient(180deg, #2ECDFF 0%, rgba(0, 137, 181, 0.90) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner_content h6 {
+    color: #515151;
+    font-size: 16px;
+    font-family: 'Baloo Da 2';
+    font-weight: 400;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.banner_content .hr1 {
+    background-color: #B1B1B1;
+    height: 1px;
+    margin: 2% 0;
+    margin-right: 39%;
+}
+
+.banner_content_list1 {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3%;
+}
+
+.banner_content_list1 li {
+    width: 33.33%;
+    max-width: 250px;
+    padding: 2rem;
+    text-align: center;
+
+    border-radius: 15px;
+    border: 1px solid #D9D9D9;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Baloo Da 2';
+    line-height: 30px;
+    margin-top: 1%;
+
+    box-shadow: 0px 1px 4px rgb(146, 145, 145);
+    transition: all linear .2s;
+}
+
+.banner_content_list1 li:hover{
+    box-shadow: 0px 0px 0px;
+    transition: all linear .2s;
+}
+
+.banner_content_list2 {
+    margin-top: 6%;
+    display: flex;
+    gap: 2rem;
+}
+
+.banner_content_list2 li a {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+
+    color: #00B6F1;
+    text-decoration: underline;
+}
+
+.banner_content_list2 .admission {
+    width: 50%;
+    padding: 1px 1px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #2ECDFF 0%, rgba(0, 137, 181, 0.90) 100%);
+}
+
+.banner_content_list2 .admission a {
+    color: white;
+    text-decoration: none;
+}
+
+/* banner 2nd 6 col part end */
+/* banner review part end */
+
+
+
+
+
+/*  2nd or mid part start */
+#mid_part {
+    margin-top: 3%;
+    overflow: hidden;
+}
+
+/* 1st half part start */
+.mid_part_content1 {
+    padding: 25px;
+    border-radius: 27px;
+    border: 1px solid #D9D9D9;
+
+    box-shadow: 0px 1px 6px whitesmoke;
+    transition: all linear .2s;
+}
+
+.mid_part_content1:hover{
+    box-shadow: 1px 0px 20px whitesmoke;
+    transition: all linear .2s;
+}
+
+.mid_part_content1 .hr2 {
+    background-color: #C0C0C0;
+    height: 1px;
+    margin: 1% 0;
+    margin-bottom: 5%;
+    margin-right: 5%;
+
+}
+
+.mid_part_content1 h3 {
+    color: #202020;
+    font-size: 30px;
+    font-family: 'Baloo Da 2';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+
+    margin-left: 1%;
+}
+
+.course_curriculum_list {
+    margin-left: 14%;
+}
+
+.course_curriculum_list ul li {
+    list-style: circle;
+    /* border-radius: 12px;
+    border: 1.5px solid #D9D9D9; */
+    margin-bottom: 6%;
+}
+
+.course_curriculum_list ul li a {
+    color: #515151;
+    font-size: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* 1st half part end */
+
+
+
+
+
+/* 2nd half part content part start */
+.mid_part_content2 {
+    border-radius: 25px;
+    background: #F9F9F9;
+
+    padding: 26px;
+    padding-bottom: 10%;
+}
+
+.mid_part_content2 h3 {
+    color: #222;
+    font-size: 20px;
+    font-family: 'Baloo Da 2';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+
+    margin-bottom: 3%;
+}
+
+/* indicators part start */
+.carousel-indicators [data-bs-target] {
+    width: 8px;
+    border: none;
+    height: 8px;
+    border-radius: 9px;
+    background: #D9D9D9;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    border-radius: 9px;
+    background: #29C0F0;
+}
+
+.carousel-indicators {
+    margin-bottom: -2rem;
+}
+
+/* indicators part end */
+
+/* video slide part start */
+.community_img {
+    position: relative;
+}
+
+.community_main_img1 {
+    border-radius: 15px;
+    border: 1px solid #DADADA;
+    background: #E5E5E5;
+}
+
+.community_main_img2 {
+    position: absolute;
+    top: 24%;
+    left: 36%;
+
+    animation: catagory_video_img;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.community_img .community_main_img2:hover {
+    top: 23%;
+    left: 35%;
+    height: 49%;
+    width: 28%;
+}
+
+@keyframes catagory_video_img {
+    10% {
+        position: absolute;
+        top: 24%;
+    }
+
+    25% {
+        position: absolute;
+        top: 30%;
+    }
+
+    40% {
+        position: absolute;
+        top: 24%;
+    }
+
+    55% {
+        position: absolute;
+        top: 30%;
+    }
+
+    70% {
+        position: absolute;
+        top: 24%;
+    }
+
+    85% {
+        position: absolute;
+        top: 30%;
+    }
+
+    99% {
+        position: absolute;
+        top: 24%;
+    }
+}
+
+/* video slide part end */
+
+/* 2nd half part content part end */
+/*  2nd or mid part end */
+
+
+
+
+
+/* last part 1 start */
+#last_part1 {
+    margin-top: 5%;
+}
+
+.last_part1_content h3 {
+    color: #009BCD;
+    font-size: 35px;
+    font-family: 'Baloo Da 2';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.last_part1_content h6 {
+    color: #515151;
+    font-size: 16px;
+    font-family: 'Baloo Da 2';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: justify;
+}
+
+/* last part 1 end */
+
+
+
+
+
+/* last part 2 start */
+#last_part2 {
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+.last_part2_content {
+    border-radius: 22px;
+    border: 0.3px solid #A5A5A5;
+    background: #F9F9F9;
+
+    padding: 30px;
+
+    box-shadow: 0px 1px 4px rgb(146, 145, 145);
+    transition: all linear .2s;
+}
+
+.last_part2_content:hover{
+    box-shadow: 0px 0px 0px;
+    transition: all linear .2s;
+}
+
+.last_part2_content h3,
+.last_part2_content h4 {
+    color: #222;
+    font-size: 20px;
+    font-family: 'Baloo Da 2';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%;
+}
+
+.last_part2_content h3 strong {
+    font-weight: 400;
+}
+
+.last_part2_content h4 {
+    margin-bottom: 10%;
+}
+
+.last_part2_content a {
+    padding: 10px 60px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #2ECDFF 0%, rgba(0, 137, 181, 0.90) 100%);
+    color: white;
+
+    margin-left: 2%;
+}
+
+/* last part 2 end */
+
+
+
+
+
+/* responsive part start */
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* banner 1st part start */
+    .banner_img .w-100 {
+        height: 250px;
+    }
+
+    .rating_part_main {
+        display: contents;
+    }
+    /* banner 1st part end */
+
+    /* banner 2nd part part start */
+    .banner_content {
+        margin-top: 12%;
+    }
+
+    .banner_content .hr1 {
+        margin-right: 4%;
+    }
+
+    .banner_content_list1 li {
+        padding: 2%;
+    }
+    /* banner 2nd part end */
+
+
+
+
+
+    /* mid part start */
+    #mid_part {
+        margin-top: 12%;
+    }
+
+    .mid_part_content2 {
+        margin-top: 12%;
+        padding-bottom: 18%;
+    }
+    /* mid part end */
+
+
+
+
+
+    /* last part start */
+    .last_part2_content {
+        margin-top: 4%;
+        margin-bottom: 6%;
+        text-align: center;
+    }
+    /* last part end */
+
+
+
+
+
+    /* footer part start */
+    .col1_responsive .pe-5 {
+        text-align: center;
+        padding-right: 2rem !important;
+    }
+
+    .menu4_list2 {
+        gap: 2.5rem;
+        margin-left: 1.4%;
+    }
+    /* footer part end */
+
+}
+/* responsive part end */

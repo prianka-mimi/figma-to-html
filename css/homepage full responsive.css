@@ -1,0 +1,1057 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width: 991px) {
+
+	/* search bar part start */
+	#search_bar {
+		/* margin-left: -65%; */
+		/* margin-top: -4%; */
+
+		display: initial;
+	}
+
+	#search_bar form input {
+		padding-right: 5%;
+		height: 40px;
+	}
+
+	#search_bar form a i {
+		height: 40px;
+		margin-left: 0px;
+	}
+
+	/* search bar part end */
+
+
+
+
+
+	/* banner part start */
+	.banner_content h3 {
+		text-align: center;
+		font-size: 1.5rem;
+		margin-top: -14%;
+	}
+
+	.banner_content h2 {
+		text-align: center;
+		font-size: 1.8rem;
+		margin-left: 7%;
+		margin-top: -5%;
+	}
+
+	.banner_content h6 {
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 20%;
+		margin-left: 5%;
+		margin-top: -8%;
+	}
+
+	.banner_content h6 br {
+		display: none;
+	}
+
+	.banner_content .join {
+		padding: 5% 3%;
+	}
+
+	.join_taketour_img_flex_custom {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 1.8rem;
+		margin-left: 8%;
+	}
+
+	.banner_content .img1 {
+		position: absolute;
+		left: 55%;
+		top: 25%;
+		height: 85px;
+	}
+
+	.banner_content .img2 {
+		position: absolute;
+		left: 76%;
+		top: 76%;
+		height: 85px;
+	}
+
+	.banner_img img {
+		position: absolute;
+		left: 1%;
+		margin-top: -15%;
+		width: 100%;
+	}
+
+	/* banner part end */
+
+
+
+
+
+	/* service part start */
+	#service_part {
+		margin: 0 12%;
+		margin-top: 60%;
+		margin-bottom: -60%;
+		position: relative;
+	}
+
+	#service_part .col-6 {
+		width: 100%;
+	}
+
+	.service_main {
+		width: 100%;
+		margin: 8% 0%;
+	}
+
+	.service_main .imgbg {
+		position: absolute;
+		top: -16%;
+		left: 54%;
+		height: 125px;
+	}
+
+	/* service part end */
+
+
+
+
+
+	/* catagory part start */
+	#catagory {
+		margin-top: 80%;
+		position: relative;
+	}
+
+	.catagory_title {
+		font-size: 2rem;
+		margin-top: -10%;
+		padding-top: 15%;
+	}
+
+	#catagory .row>* {
+		width: 50%;
+	}
+
+	.common_header {
+		width: 100%;
+	}
+
+	.catagory_design {
+		margin-bottom: 20%;
+	}
+
+	.catagory_main {
+		height: 150px;
+	}
+
+	.catagory_content img {
+		position: absolute;
+		margin-bottom: 25%;
+	}
+
+	.catagory_content h6 {
+		margin-top: 55%;
+	}
+
+	/* catagory part end */
+
+
+
+
+
+	/* community part start */
+	#community {
+		margin-top: 0;
+	}
+
+	.instructor_img_responsive,
+	.community_main_img1 {
+		width: 100%;
+	}
+
+	.community_main_img2,
+	.community_main_img2:hover {
+		width: 32%;
+		left: 36% !important;
+	}
+
+	.community_content p strong {
+		font-size: 1.4rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.community_content p {
+		font-size: 1.8rem;
+		text-align: center;
+		margin-top: -15%;
+	}
+
+	.community_content h6 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.community_content a {
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 3%;
+		margin: 10% 24%;
+	}
+
+	.community_content img {
+		position: absolute;
+		top: 3%;
+		left: 59%;
+		width: 40%;
+	}
+
+	/* instructor part start */
+	.instructor_content {
+		margin-top: -10%;
+	}
+
+	.instructor_img_responsive {
+		width: 100%;
+		margin-top: 2%;
+	}
+
+	/* instructor part end */
+
+	/* get personal learning part start */
+	.personal_learning_content {
+		margin-top: 25%;
+	}
+
+	.personal_learning_content img {
+		position: absolute;
+		top: -5%;
+		left: 10%;
+		width: 30%;
+	}
+
+	.personal_learning_responsive {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	/* get personal learning part end */
+	/* community part end */
+
+
+
+
+
+	/* benifit part start */
+	.benifits_main {
+		width: 100%;
+		height: 100%;
+		margin-top: 10%;
+	}
+
+	.benifit_bg {
+		position: absolute;
+		top: 52%;
+		left: -15%;
+		rotate: 22deg;
+	}
+
+	.option_icon a img {
+		width: 85px;
+		height: 85px;
+	}
+
+	.option_title h4 {
+		font-size: 15px;
+	}
+
+	/* benifit part end */
+
+
+
+
+
+	/* card group part start */
+	.card_group_body {
+		margin-top: -50px;
+		margin-bottom: 155px !important;
+		border-radius: 20px;
+		width: 100%;
+		height: 80%;
+		box-shadow: 1px 1px 7px gray;
+		overflow: hidden;
+	}
+
+	.card_group_coloum_devider {
+		padding-top: 69px;
+		margin-top: -66%;
+		width: 1px;
+		margin-left: 102%;
+	}
+
+
+	.card_group_coloum_icon {
+		padding-left: 24% !important;
+		padding-top: 18% !important;
+	}
+
+	.card_group_coloum_content {
+		margin-left: -35%;
+		margin-top: -20%;
+		justify-content: center;
+		align-items: center;
+		display: grid;
+	}
+
+	.card_group_coloum_devider_responsive {
+		display: none;
+	}
+
+	.card_grp_bg1 {
+		position: absolute;
+		left: -6%;
+		bottom: -148px;
+		rotate: 68deg;
+	}
+
+	.card_grp_bg2 {
+		position: absolute;
+		bottom: -355px !important;
+		right: 0%;
+	}
+
+	/* card group part end */
+
+
+
+
+
+	/* course bundle part start */
+	.slick-arrow {
+		display: none !important;
+	}
+
+	#course_bundle {
+		position: relative;
+		margin-top: -20%;
+	}
+
+	.course_bundle_card {
+		border-radius: 30px;
+		/* margin: 50px 22px; */
+	}
+
+	.course_bundle_design {
+		margin-bottom: -5%;
+	}
+
+	.course_bundle_card_title {
+		font-size: 14px;
+	}
+
+	.course_ammount {
+		/* margin-left: 5px; */
+		display: flex;
+		justify-content: right;
+	}
+
+	.course_bundle_footer_img img {
+		width: 90%;
+	}
+
+	.course_bundle_content1 {
+		margin-left: -1%;
+		margin-top: 2%;
+	}
+
+	.course_bundle_content2 {
+		margin-left: 24px;
+	}
+
+	/* indicators part start */
+	.slick-dots li.slick-active button:before,
+	.slick-dots li button:before {
+		display: block;
+	}
+
+	/* indicators part end */
+
+	/* course bundle part end */
+
+
+
+
+
+	/* training partner part start */
+	#training_partner_part {
+		margin-bottom: 9%;
+		position: relative;
+		margin-top: 10%;
+	}
+
+	.training_partner_part_design {
+		margin-bottom: 25px !important;
+	}
+
+	#training_partner_part .service_main {
+		width: 260px;
+	}
+
+	.slick-list .training_partner_main {
+		margin: 0 2px !important;
+	}
+
+	/* indicators part start */
+	.trainig_partner_part_card .slick-dots li.slick-active button:before,
+	.trainig_partner_part_card .slick-dots li button:before {
+		display: block;
+	}
+
+	/* indicators part end */
+
+	/* training partner part end */
+
+
+
+
+
+	/* last part bg img & arrow */
+	.last_part_bg_img img {
+		display: none;
+	}
+
+	/* last part bg img & arrow */
+
+
+
+
+
+	/* subscribe part start */
+	#subscribe {
+		position: relative;
+		margin-bottom: 30px;
+		margin-top: 20%;
+	}
+
+	#subscribe .subscribe_card_body {
+		height: auto;
+	}
+
+	.subscribe_bg {
+		display: none;
+	}
+
+	.subscribe_content {
+		position: relative;
+		top: initial;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.subscribe_content p {
+		font-size: 24px;
+		margin-top: -34%;
+	}
+
+	.subscribe_content p strong {
+		font-size: 32px;
+	}
+
+	.subscribe_box_main {
+		position: relative;
+		top: initial;
+		left: initial;
+		width: 100%;
+		margin-top: -36px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100px;
+	}
+
+	.subscribe_box_main input {
+		width: 100%;
+	}
+
+	.subscribe_box_main input::placeholder {
+		font-size: 15.5px;
+	}
+
+	.subscribe_box_main .subscribe_box1 {
+		width: 100%;
+		border-right: 1px solid rgb(21, 157, 255);
+		border-radius: 20px 20px 0 0;
+		border-bottom: none;
+	}
+
+	.subscribe_box_main .me-2 {
+		margin-right: 0rem !important;
+	}
+
+	.subscribe_box_main .subscribe_box2 {
+		width: 100%;
+		border-radius: 0 0 20px 20px;
+		/* margin-top: 10px; */
+		padding: 12px 32px;
+		position: relative;
+		left: initial;
+		transform: none;
+		border-top: none;
+	}
+
+	.subscribe_box_main .subscribe_box2:active {
+		width: 100%;
+		border-radius: 0 0 20px 20px;
+		/* margin-top: 10px; */
+		padding: 12px 32px;
+		position: relative;
+		left: initial;
+		transform: none;
+		border-top: none;
+
+		/* position: initial;
+		top: initial; */
+	}
+
+	/* pop up js style part start */
+	.popup {
+		z-index: 1;
+		padding: 30px 20px;
+		width: 85%;
+	}
+
+	/* pop up js style part end */
+	/* subscribe part end */
+}
+
+/* ============================phone potrait part end====================== */
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+	/* banner part start */
+	.banner_content h3 {
+		font-size: 2.2rem;
+		margin-top: -8%;
+	}
+
+	.banner_content h2 {
+		font-size: 2.8rem;
+		margin-top: 0%;
+	}
+
+	.banner_content h6 {
+		font-size: 20px;
+		margin-bottom: 20%;
+		margin-top: -4%;
+	}
+
+	.banner_content h6 br {
+		display: none;
+	}
+
+	.join_taketour_img_flex_custom {
+		gap: 3rem;
+		margin-left: 16%;
+		margin-top: -6%;
+	}
+
+	.banner_content .img1 {
+		left: 64%;
+		top: 32%;
+	}
+
+	.banner_content .img2 {
+		left: 72%;
+		top: 80%;
+	}
+
+	.banner_img img {
+		margin-top: -10%;
+	}
+
+	/* banner part end */
+
+
+
+
+
+	/* service part start */
+	#service_part {
+		margin: 0 6%;
+		margin-bottom: -70%;
+	}
+
+	#service_part .col-6 {
+		width: 45%;
+		margin: auto;
+	}
+
+	.service_main {
+		margin: 10% 0%;
+	}
+
+	/* service part end */
+
+
+
+
+
+	/* catagory part start */
+	.catagory_title {
+		font-size: 2.5rem;
+	}
+
+	.catagory_main {
+		height: 250px;
+	}
+
+	.catagory_content h6 {
+		font-size: 18px;
+	}
+
+	/* catagory part end */
+
+
+
+
+
+	/* community part start */
+	.community_content {
+		margin-top: 25%;
+	}
+
+	.community_content p strong {
+		font-size: 1.8rem;
+	}
+
+	.community_content p {
+		font-size: 2.5rem;
+		line-height: 60px;
+	}
+
+	.community_content h6 {
+		font-size: 20px;
+	}
+
+	.community_content a {
+		font-size: 18px;
+	}
+
+	/* get personal learning part start */
+	.personal_learning_content img {
+		position: absolute;
+		top: -8%;
+		left: 18%;
+		width: 22%;
+	}
+
+	/* get personal learning part end */
+	/* community part end */
+
+
+
+
+
+	/* benifit part start */
+	.benifit_bg {
+		top: 38%;
+		left: 26%;
+		rotate: 0deg;
+	}
+
+	.option_title h4 {
+		font-size: 18px;
+	}
+
+	/* benifit part end */
+
+
+
+
+
+	/* card group part start */
+	.card_group_coloum_devider {
+		padding-top: 90px;
+		margin-top: -40%;
+	}
+
+
+	.card_group_coloum_icon {
+		padding-left: 32% !important;
+		padding-top: 10% !important;
+	}
+
+	.card_group_coloum_content {
+		margin-left: -25%;
+		margin-top: -8%;
+	}
+
+	/* card group part end */
+
+
+
+
+
+	/* subscribe part start */
+	.subscribe_content p {
+		font-size: 30px;
+		margin-top: -28%;
+	}
+
+	.subscribe_content p strong {
+		font-size: 45px;
+		padding-top: 10px;
+	}
+
+}
+
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+
+	#search_bar{
+		display: grid;
+		align-items: center;
+		justify-content: center;
+	}
+
+	/* banner part start */
+	.banner_content h3 {
+		font-size: 2rem;
+		margin-top: -8%;
+	}
+
+	.banner_content h2 {
+		font-size: 2.2rem;
+		margin-top: 0%;
+	}
+
+	.banner_content h6 {
+		/* font-size: 20px; */
+		margin-bottom: 20%;
+		margin-top: -4%;
+	}
+
+	.banner_content h6 br {
+		display: none;
+	}
+
+	.join_taketour_img_flex_custom {
+		gap: 3rem;
+		margin-left: 16%;
+		margin-top: -6%;
+	}
+
+	.banner_content .img1 {
+		left: 64%;
+		top: 32%;
+	}
+
+	.banner_content .img2 {
+		left: 72%;
+		top: 80%;
+	}
+
+	.banner_img img {
+		margin-top: -10%;
+	}
+
+	/* banner part end */
+
+
+
+
+
+	/* service part start */
+	#service_part {
+		margin: 0 6%;
+		margin-bottom: -70%;
+	}
+
+	#service_part .col-6 {
+		width: 45%;
+		margin: auto;
+	}
+
+	.service_main {
+		margin: 10% 0%;
+	}
+
+	/* service part end */
+
+
+
+
+
+	/* catagory part start */
+	.catagory_title {
+		font-size: 2.5rem;
+	}
+
+	.catagory_main {
+		height: 250px;
+	}
+
+	.catagory_content h6 {
+		font-size: 18px;
+	}
+
+	/* catagory part end */
+
+
+
+
+
+	/* community part start */
+	.community_content {
+		margin-top: 25%;
+	}
+
+	.community_content p strong {
+		font-size: 1.8rem;
+	}
+
+	.community_content p {
+		font-size: 2.5rem;
+		line-height: 60px;
+	}
+
+	.community_content h6 {
+		font-size: 20px;
+	}
+
+	.community_content a {
+		font-size: 18px;
+	}
+
+	.card_group_coloum_devider_responsive {
+		display: block;
+	}
+
+	/* get personal learning part start */
+	.personal_learning_content img {
+		position: absolute;
+		top: -8%;
+		left: 18%;
+		width: 22%;
+	}
+
+	.personal_learning_responsive {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.personal_learning_content img {
+		position: absolute;
+		top: -8%;
+		left: 4%;
+		width: 40%;
+	}
+
+	/* get personal learning part end */
+	/* community part end */
+
+
+
+
+
+	/* benifit part start */
+	.benifit_bg {
+		top: 38%;
+		left: 36%;
+		rotate: 0deg;
+	}
+
+	.option_title h4 {
+		font-size: 17px;
+	}
+
+	.benifits_main {
+		width: 100%;
+		height: 100%;
+		margin-top: 0%;
+	}
+
+	.option_main {
+		position: relative;
+		padding-bottom: 20%;
+	}
+
+	.benifits_main .catagory_title {
+		margin-top: -10%;
+	}
+
+	.benifit_background .catagory_design {
+		margin-bottom: 40px;
+	}
+
+	/* benifit part end */
+
+
+
+
+
+	/* card group part start */
+
+	.card_group_body {
+		margin-top: -50px;
+		margin-bottom: 155px !important;
+		border-radius: 20px;
+		width: 100%;
+		height: 80%;
+		box-shadow: 1px 1px 7px gray;
+		overflow: hidden;
+	}
+
+	.card_group_coloum_devider {
+		padding-top: 69px;
+		margin-top: -66%;
+		width: 1px;
+		margin-left: 102%;
+	}
+
+
+	.card_group_coloum_icon {
+		padding-left: 24% !important;
+		padding-top: 18% !important;
+	}
+
+	.card_group_coloum_content {
+		margin-left: -35%;
+		margin-top: -20%;
+		justify-content: center;
+		align-items: center;
+		display: grid;
+	}
+
+	.card_group_coloum_devider_responsive {
+		display: none;
+	}
+
+	.card_grp_bg1 {
+		position: absolute;
+		left: -6%;
+		bottom: -148px;
+		rotate: 68deg;
+	}
+
+	.card_grp_bg2 {
+		position: absolute;
+		bottom: -355px !important;
+		right: 0%;
+	}
+
+	/* card group part end */
+
+
+
+
+
+	/* course bundle part start */
+	/* #course_bundle{
+		margin-top: 0%;
+	} */
+
+	#course_bundle .catagory_title {
+		font-size: 2rem;
+		margin-top: 0%;
+		/* padding-top: initial; */
+	}
+
+	.course_bundle_content2 {
+		margin-left: 9px;
+	}
+
+	.card_group_body .card-body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	/* course bundle part end */
+
+
+
+
+	/* subscribe part start */
+	.subscribe_content p {
+		font-size: 25px;
+		margin-top: -28%;
+	}
+
+	.subscribe_content p strong {
+		font-size: 45px;
+		padding-top: 10px;
+	}
+
+	.subscribe_content {
+		position: relative;
+		top: initial;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.subscribe_box_main {
+		position: relative;
+		top: initial;
+		left: initial;
+		width: 100%;
+		margin-top: 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	/* #subscribe .subscribe_card_body {
+		height: 100%;
+	} */
+
+	/* bootstarp part start */
+	#subscribe .card-body {
+		flex: 1 1 auto;
+		padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+		color: var(--bs-card-color);
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#subscribe .card {
+		--bs-card-spacer-y: -1rem;
+	}
+	/* bootstarp part end */
+
+ }
+
+
+
+
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199px){ ... } */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) and (max-width: 1399px){ ... } */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */

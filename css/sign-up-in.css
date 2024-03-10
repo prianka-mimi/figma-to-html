@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li,
+i,
+form,
+label,
+strong,
+header,
+nav,
+menu,
+section,
+footer {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* ######################################################### */
+
+
+
+
+body{
+    height: 100vh;
+}
+/* left side part start */
+.background_img1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background_img1 .bg_img1 {
+    height: 657px;
+    width: 100%;
+}
+
+.background_img2 {
+    position: absolute;
+    top: 68%;
+    left: 0%;
+}
+
+.background_img1 .bg_img2 {
+    width: 107%;
+}
+
+.logo {
+    position: absolute;
+    top: 8%;
+    left: 4%;
+}
+
+.content_main {
+    position: absolute;
+    top: 45%;
+    left: 4%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: center;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_main h4 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_main h6 {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+
+    margin-top: 2.5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* bootstarp part start */
+.row {
+    --bs-gutter-x: none;
+}
+
+/* bootstarp part end */
+
+/* left side part end */
+
+
+
+
+
+/* right side part start */
+.sign_up_content {
+    text-align: center;
+    margin-top: 10%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.sign_up_content h4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #222222;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign_up_content h6 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A2A2A2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ========================form part start============================== */
+.form_main {
+    margin-top: -0.5% !important;
+    padding: 40px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_main form input {
+    background-color: transparent;
+    font-family: 'Poppins';
+    height: 55px!important;
+    width: 240%;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    outline: none;
+    color: gray;
+    font-size: 15px;
+
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px gray;
+    margin-left: -70%;
+    transition: all linear .3s;
+}
+
+.form_main form input:hover {
+    box-shadow: 1px 1px 15px gray;
+    transition: all linear .3s;
+}
+
+.form_main form input::placeholder {
+    color: #A2A2A2;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.form_main form button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(180deg, #49A3F4 4.17%, #005EB5 100%);
+    box-shadow: 1px 1px 5px gray;
+
+    height: 50px;
+    width: 160%;
+    margin-left: -30%;
+    transition: all linear .5s!important;
+}
+
+.form_main form button:hover {
+    background: linear-gradient(rgb(235, 147, 160), rgb(240, 9, 132));
+    box-shadow: 1px 1px 15px gray;
+    transition: all linear .5s!important;
+}
+
+.form_main form button a{
+    color: #FDFDFD;
+    width: 100%;
+}
+
+.form_main .sign_up_p1 {
+    text-align: center;
+    color: rgba(161, 161, 161, 1);
+}
+
+.form_main p .sign_up_p2 {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgba(63, 153, 236, 1);
+}
+
+
+
+
+
+/* sign in part start */
+.form_main p .forget_pass1 {
+    text-decoration: underline;
+    color: rgba(161, 161, 161, 1);
+}
+
+.form_main p .forget_pass2 {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(63, 153, 236, 1);
+}
+
+.background_img2_sign_in{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}
+/* sign in part end */
+/* ==========================form part end================================= */
+
+/* right side part end */
